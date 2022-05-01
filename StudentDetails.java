@@ -14,7 +14,7 @@ import java.util.Scanner;
         this.name=name; this.roll=roll; this.marks=marks;
     }
     void display(){
-        System.out.println("Name:"+name+" "+"Roll: "+roll+" Marks: "+marks);
+        System.out.println("Name: "+name+" "+"Roll: "+roll+" Marks: "+marks);
     }
  }
         public class StudentDetails {
@@ -28,7 +28,7 @@ import java.util.Scanner;
         s1.setData(in.next(), in.nextInt(), in.nextDouble());
         s2.setData(in.next(), in.nextInt(), in.nextDouble());
         s3.setData(in.next(), in.nextInt(), in.nextDouble());
-//        in.close();
+        in.close();
         s1.display(); s2.display();  s3.display();
     }
 }
