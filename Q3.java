@@ -3,7 +3,8 @@ package com.company;
 public class Q3 {
     static char[] characters = {'c','a','r', 'b','o', 'n'};
     public static void main(String[] args) {
-        printPermutation(characters, 0, characters.length);
+        int len=characters.length;
+        printPermutation(characters, 0, len);
     }
 
     private static void printPermutation(char[] a, int startIndex, int endIndex) {

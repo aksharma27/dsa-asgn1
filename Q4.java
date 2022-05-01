@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Q4 {
     public static void main(String[] args) {
+        System.out.println("Enter the number of lines");
         Scanner in= new Scanner(System.in);
         int lines= in.nextInt();            //number of lines as input
-        System.out.println("Enter the number of lines to enter");
+        System.out.println("Enter the lines :");
         String[] string = new String[lines];
         in.nextLine(); //consuming the <enter> from input above
         for (int i = 0; i < string.length; i++) {
